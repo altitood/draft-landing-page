@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+#logo {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#title-menu-superior {
+  margin-left: 175px;
+  margin-top: 75px;
+}
+
+#text-menu-superior {
+  margin-left: 175px;
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+#menu-superior {
+  background-image: url(images/background-menu.svg);
+  color: #fafafa;
+}
+
+#menu-info {
+  background-color: #EAECE5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.icon {
+  margin: 50px 0px 50px 100px;
+  padding: 25px;
+}
+
+.text-info {
+  display: flex;
+  align-items: center;
+}
