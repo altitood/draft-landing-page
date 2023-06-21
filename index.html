@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="style.css" />
     <title>Escola DNC</title>
   </head>
+
   <body>
+    <!-- MENU SUPERIOR -->
     <div id="menu-superior">
       <a href="https://ed.escoladnc.com.br/">
         <img src="./images/logo.svg" id="logo" alt="DNC logo" />
@@ -28,11 +30,62 @@
         fundamentos para construir experiências efetivas.
       </p>
     </div>
+
+    <!-- MENU INFORMACIONAL -->
     <div id="menu-info">
-      
-      <p class="text-info"><img src="icons/certificate.svg" class="icon" alt="Ícone certificado" /> Certificado de conclusão</p>
-      <p class="text-info"><img src="icons/watch.svg" class="icon" alt="Ícone relógio" /> 450h de conteúdo</p>
-      <p class="text-info"><img src="icons/camera.svg" class="icon" alt="Ícone câmera" /> Aulas online gravadas</p>
+      <p class="text-info">
+        <img src="icons/certificate.svg" class="icon" alt="Ícone certificado" />
+        Certificado de conclusão
+      </p>
+      <p class="text-info">
+        <img src="icons/watch.svg" class="icon" alt="Ícone relógio" /> 450h de
+        conteúdo
+      </p>
+      <p class="text-info">
+        <img src="icons/camera.svg" class="icon" alt="Ícone câmera" /> Aulas
+        online gravadas
+      </p>
+    </div>
+
+    <!-- SEÇÃO VÍDEO -->
+    <div id="section-video">
+      <iframe
+        id="video"
+        width="502"
+        height="283"
+        src="https://www.youtube.com/embed/ITxGkd9h4n4"
+        title="DNC - A escola inovadora que forma profissionais de alta perfomance"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <div>
+        <h1 id="title-video">
+          Aprenda com especialistas e<br />
+          comece seu primeiro projeto
+        </h1>
+        <p id="text-video"><br><br>
+          Conheça o processo de desenvolvimento e entenda como utilizar<br />
+          os principais métodos e ferramentas da área para resolver<br />
+          problemas complexos.<br /><br />
+          Conquiste seu certificado e desenvolva um projeto prático para<br />
+          aplicar seus conhecimentos.
+        </p>
+      </div>
+    </div>
+
+    <!-- CARROSSEL -->
+    <div id="carousel">
+      <h1 id="title-carousel">Mais de 500 alunos já iniciaram seus estudos</h1>
+      <!-- Cards -->
+      <div id="cards">
+        <img id="arrow-left" class="arrow" src="icons/arrow-left.svg" alt="Seta esquerda">
+        <img id="leonardo" class="card" src="cards/leonardo.svg" alt="Card Leonardo">
+        <img id="bruna" class="card" src="cards/bruna.svg" alt="Card Bruna">
+        <img id="samantha" class="card" src="cards/samantha.svg" alt="Card Samantha">
+        <img id="arrow-right" class="arrow" src="icons/arrow-right.svg" alt="Seta direita">
+      </div>
+
     </div>
 
     <script src="script.js"></script>

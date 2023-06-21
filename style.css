@@ -40,3 +40,51 @@
   display: flex;
   align-items: center;
 }
+
+#section-video {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#video {
+  margin: 50px 25px 50px 100px;
+}
+
+#title-video {
+  color: #247BA0;
+  margin-top: 50px;
+}
+
+#carousel {
+  background-color: #247BA0;
+  padding: 50px;
+}
+
+#title-carousel {
+  color: #fafafa;
+  text-align: center;
+  font-size: 24px;
+}
+
+#cards {
+  margin-top: 25px;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.card {
+  margin-left: 50px;
+}
+
+#arrow-left {
+  display: none;
+}
+
+#leonardo {
+  display: none;
+}
+
+.arrow {
+  margin-top: 150%;
+}
