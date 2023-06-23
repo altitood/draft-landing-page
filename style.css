@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   font-family: 'Inter', sans-serif;
 }
@@ -25,7 +25,7 @@
 }
 
 #menu-info {
-  background-color: #EAECE5;
+  background-color: #eaece5;
   display: grid;
   grid-auto-flow: column;
   columns: auto;
@@ -52,12 +52,12 @@
 }
 
 #title-video {
-  color: #247BA0;
+  color: #247ba0;
   margin-top: 50px;
 }
 
 #carousel {
-  background-color: #247BA0;
+  background-color: #247ba0;
   padding: 50px;
 }
 
@@ -87,4 +87,10 @@
 
 .arrow {
   margin-top: 150%;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
 }
